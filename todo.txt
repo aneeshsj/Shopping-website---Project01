@@ -1,0 +1,3 @@
+- Finger swipe
+- Highlight image after url click
+- Redirect to home if logo is clicked
