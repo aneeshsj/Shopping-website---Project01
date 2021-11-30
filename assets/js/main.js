@@ -274,5 +274,5 @@ function changeDisplay(img, val) {
 function openWhatsapp(e){
   idName = e.parentElement.parentElement.id
   url = window.location.href + '#' + idName
-  window.open("https://wa.me/+919385470527/?text=I am interested in this product. "+encodeURIComponent(url))
+  window.open("https://wa.me/+919363303725/?text=I am interested in this product. "+encodeURIComponent(url))
 }
