@@ -1,0 +1,2 @@
+- Finger swipe
+- Highlight image after url click
