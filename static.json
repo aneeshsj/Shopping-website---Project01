@@ -1,3 +1,6 @@
 {
-  "root": "Shopping-website---Project01"
+  "root": "Shopping-website---Project01/"
+  "routes":{
+    "/**": "index.html"
+  } 
 }
