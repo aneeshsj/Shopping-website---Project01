@@ -276,3 +276,27 @@ function openWhatsapp(e){
   url = window.location.href + '#' + idName
   window.open("https://wa.me/+919363303725/?text=I am interested in this product. "+encodeURIComponent(url))
 }
+
+function gotoHome(){
+  url_params = window.location.href.split('/').slice(0,-2)
+  window.location.href = url_params.join('/')+'/index.html'
+}
+
+var index;
+var text;
+var product; 
+url = window.location.href
+
+if(url.indexOf("anarkali.html") > -1 || url.indexOf("combowear.html") > -1 || url.indexOf("kurtis.html") > -1 || url.indexOf("lehenga.html") > -1 
+  || url.indexOf("maxi.html") > -1 || url.indexOf("pattupavada.html") > -1 || url.indexOf("pleateddress.html") > -1 || url.indexOf("shrugs.html") > -1
+    || url.indexOf("skirts.html") > -1){
+      if(url.indexOf("#") > -1){
+        index = url.indexOf("#");
+        id = url.substr(index + 1);
+        product = document.getElementById(id)
+        product.style.background = "aliceblue"
+        setTimeout(() => {
+          product.style.background = "none";
+        }, 3000);
+      }
+}
