@@ -283,9 +283,9 @@ function gotoHome(){
 }
 
 var index;
-var text;
+var id;
 var product; 
-url = window.location.href
+var url = window.location.href;
 
 if(url.indexOf("anarkali.html") > -1 || url.indexOf("combowear.html") > -1 || url.indexOf("kurtis.html") > -1 || url.indexOf("lehenga.html") > -1 
   || url.indexOf("maxi.html") > -1 || url.indexOf("pattupavada.html") > -1 || url.indexOf("pleateddress.html") > -1 || url.indexOf("shrugs.html") > -1
